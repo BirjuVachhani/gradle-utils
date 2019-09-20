@@ -21,10 +21,20 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-    implementation 'androidx.appcompat:appcompat:1.1.0'
-    implementation 'androidx.core:core-ktx:1.0.2'
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'androidx.test:runner:1.1.1'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    /********************************** Core **********************************/
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version" // kotlinStdLib
+
+    /********************************** AndroidX **********************************/
+
+    implementation 'androidx.appcompat:appcompat:1.1.0' // appCompat
+    implementation 'androidx.core:core-ktx:1.1.0' // coreKtx
+
+    /********************************** Test **********************************/
+
+    testImplementation 'junit:junit:4.12' // Test
+
+    /********************************** AndroidTest **********************************/
+    androidTestImplementation 'androidx.test:runner:1.2.0' // runner
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0' //espressoCore
 }
