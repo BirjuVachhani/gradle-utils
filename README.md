@@ -39,7 +39,7 @@ git clone https://github.com/birjuvachhani/gradle-utils.git && xcopy  gradle-uti
 #### Mac & Linux:
 
 ```shell
-  // TODO - coming soon!
+  git clone https://github.com/birjuvachhani/gradle-utils.git && cp -a gradle-utils/buildSrc ./ && rm -rf gradle-utils
 ```
 
 # How to use
