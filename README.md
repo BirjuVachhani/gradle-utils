@@ -108,7 +108,7 @@ dependencies {
 To generate a pull request, please consider following [Pull Request Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/PULL_REQUEST_TEMPLATE.md).
 
 ### Issues
-To submit an issue, please check the [Issue Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/ISSUE_TEMPLATE.md).
+To submit an issue or a feature request, please check the [Issue Templates](https://github.com/BirjuVachhani/gradle-utils/issues/new/choose).
 
 Code of Conduct
 ---
