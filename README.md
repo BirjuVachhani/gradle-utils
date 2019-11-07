@@ -28,6 +28,15 @@ you're always welcome to contribute to that or to raise an issue on github.
 
 #### Note: This is utility is under development and will be released soon released! Although, you can use available dependencies. It's completely safe.
 
+# Features
+* Auto complete support
+* Easy to remember and use
+* Doesn't affect your APK size
+* Allows to use custom versions
+* Easy to install and modify
+* Integrates nicely with `build.gradle` and extensively with `build.gradle.kts`.
+* Make your life easy!
+
 # Installation
 open terminal at the root of your project or open terminal in Android studio and execute the following command. Please note that
 this command is very primary and it assumes that you're running it for the first time, so if you're not running it for the first time,
@@ -46,6 +55,9 @@ git clone https://github.com/birjuvachhani/gradle-utils.git && cp -a gradle-util
 
 # How to use
 Once you install it on your project and gradle build suceeds, you can get rid of all the static dependencies in your build.gradle file.
+
+You can find the list of all the available dependencies [**here**](https://github.com/BirjuVachhani/gradle-utils/blob/master/app/build.gradle)
+
 It is very easy to use this utility. All you have to do it just think of what you want to add. Let's see one example:
 
 This what we used to do before:
