@@ -32,6 +32,18 @@ Here are the guidelines we'd like you to follow:
     * :shirt: `:shirt:` when removing lint/checkstyle warnings
     
     Find all the available emojis [here](https://gitmoji.carloscuesta.me/). 
+    
+## Important contribution Points:
+
+### Want to update version of a dependency?
+* change the version in `buildSrc/src/main/java/Dependencies.kt`
+* Change the version in `app/build.gradle`
+
+### Want to add a dependency?
+* Make sure that it is very common dependency and you're not adding very specifi third-party dependency that no one knows!
+* Add this dependency in respective logical Object grounp in `buildSrc/src/main/Dependencies.kt`
+* If you can't find a logical object group for your dependency, then create a new one and document it.
+* Add this dependency in `app/build.gradle` with proper comments and variable name.
 
 ## <a name="question"></a> Got a Question or Problem?
 
