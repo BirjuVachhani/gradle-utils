@@ -16,6 +16,8 @@ and [**buildSrc**](https://stackoverflow.com/a/13875350/9199362) folder to do th
 
 Alright! It's fine if you don't know the details on how it works, you can still use it easily.
 
+![gif](gradle-utils-1.gif)
+
 > It is an attempt to reduce a developer's work of finding dependencies and using them. It allows you to use majority
 of common dependencies that an Android developer needs everyday. Note that it has a limited set of pre-available dependencies which you
 can use in your project.
@@ -94,15 +96,21 @@ dependencies {
     implementation With.version(AndroidX.appCompat,"1.0.2")
 }
 ```
-Syntax for `.build` file is a little bit lengthy as it doesn't support kotlin's beautiful syntax.
+Syntax for `.build` file is a little bit lengthy as it doesn't support kotlin's beautiful syntax. Checkout this demo below:
+
+![gif](gradle-utils-2.gif)
 
 #### build.gradle.kts
 
 ```groovy
 dependencies {
-    implementation AndroidX.appCompat version "1.0.2"
+    implementation(AndroidX.appCompat version "1.0.2")
 }
 ```
+
+Checkout this demo below:
+
+![gif](gradle-utils-2.gif)
 
 ### Pull Request
 To generate a pull request, please consider following [Pull Request Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/PULL_REQUEST_TEMPLATE.md).
