@@ -1,4 +1,4 @@
-# gradle-utils
+# Gradle Utils
 A small utility for gradle dependency management that saves a lot of precious time of developer wasted on finding required
 dependencies for Android libraries.
 
@@ -103,6 +103,24 @@ dependencies {
     implementation AndroidX.appCompat version "1.0.2"
 }
 ```
+
+### Pull Request
+To generate a pull request, please consider following [Pull Request Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/PULL_REQUEST_TEMPLATE.md).
+
+### Issues
+To submit an issue, please check the [Issue Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/ISSUE_TEMPLATE.md).
+
+Code of Conduct
+---
+[Code of Conduct](https://github.com/BirjuVachhani/gradle-utils/blob/master/CODE_OF_CONDUCT.md)
+
+## Contribution
+
+You are most welcome to contribute to this project! We're looking for contributors who add missing dependencies, update versions and help to manage documentation.
+
+
+Please have a look at [Contributing Guidelines](https://github.com/BirjuVachhani/gradle-utils/blob/master/CONTRIBUTING.md), before contributing and proposing a change.
+
 # License
 
 ```
