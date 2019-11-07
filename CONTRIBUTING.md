@@ -50,7 +50,7 @@ Where did you expect to find this information?
 If you find a bug in the source code or a mistake in the documentation, you can help us by
 submitting an issue to our project.
 
-To submit an issue, please check the [Issue Template](https://github.com/BirjuVachhani/gradle-utils/blob/master/ISSUE_TEMPLATE.md).
+To submit an issue, please check the [Issue Templates](https://github.com/BirjuVachhani/gradle-utils/issues/new/choose).
 
 Even better you can submit a Pull Request with a fix.
 
