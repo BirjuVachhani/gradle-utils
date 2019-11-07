@@ -26,7 +26,7 @@ can use in your project.
 libraries out there and it doesn't make sense to include all of them. But if you find any useful and very common library missing,
 you're always welcome to contribute to that or to raise an issue on github.
 
-#### Note: This is utility is under development and will be released soon released! Although, you can use available dependencies. It's completely safe.
+#### Note: This is utility is under development and will be released soon! Although, you can use available dependencies. It's completely safe.
 
 # Features
 * Auto complete support
