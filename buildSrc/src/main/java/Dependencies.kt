@@ -12,37 +12,37 @@ object Core {
 
 object AndroidX {
     const val constraintLayout = ""
-    const val appCompat = "androidx.appcompat:appcompat:1.1.0"
-    const val recyclerView = "androidx.recyclerview:recyclerview:1.0.0"
+    const val appCompat = "androidx.appcompat:appcompat:1.2.0"
+    const val recyclerView = "androidx.recyclerview:recyclerview:1.1.0"
     const val recyclerViewSelection = "androidx.recyclerview:recyclerview-selection:1.0.0"
     const val viewPager = "androidx.viewpager:viewpager:1.0.0"
     const val viewPager2 = ""
     const val cardView = "androidx.cardview:cardview:1.0.0"
-    const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.0.0"
+    const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
     const val vectorDrawable = "androidx.vectordrawable:vectordrawable:1.1.0"
-    const val fragment = "androidx.fragment:fragment:1.1.0"
-    const val emoji = "androidx.emoji:emoji:1.0.0"
+    const val fragment = "androidx.fragment:fragment-ktx:1.2.5"
+    const val emoji = "androidx.emoji:emoji:1.1.0"
     const val annotation = "androidx.annotation:annotation:1.1.0"
     const val print = "androidx.print:print:1.0.0"
-    const val preference = "androidx.preference:preference:1.1.0"
-    const val palette = "androidx.palette:palette:1.0.0"
+    const val preference = "androidx.preference:preference-ktx:1.1.1"
+    const val palette = "androidx.palette:palette-ktx:1.0.0"
     const val multidex = "androidx.multidex:multidex:2.0.1"
     const val loader = "androidx.loader:loader:1.1.0"
     const val leanback = "androidx.leanback:leanback:1.0.0"
     const val gridLayout = "androidx.gridlayout:gridlayout:1.0.0"
-    const val exifInterface = "androidx.exifinterface:exifinterface:1.0.0"
-    const val drawerLayout = "androidx.drawerlayout:drawerlayout:1.0.0"
-    const val materialDesign = "com.google.android.material:material:1.0.0"
-    const val browser = "androidx.browser:browser:1.0.0"
+    const val exifInterface = "androidx.exifinterface:exifinterface:1.3.1"
+    const val drawerLayout = "androidx.drawerlayout:drawerlayout:1.1.1"
+    const val materialDesign = "com.google.android.material:material:1.2.1"
+    const val browser = "androidx.browser:browser:1.2.0"
 }
 
 object Test {
-    const val junit4 = "junit:junit:4.12"
+    const val junit4 = "junit:junit:4.13"
 }
 
 object Espresso {
     @JvmStatic
-    var version = "3.2.0"
+    var version = "3.3.0"
     @JvmStatic
     val core: String
         get() = "androidx.test.espresso:espresso-core:$version"
@@ -65,7 +65,7 @@ object Espresso {
 
 object Room {
     @JvmStatic
-    var version = "2.2.1"
+    var version = "2.2.5"
     @JvmStatic
     val common: String
         get() = "androidx.room:room-common:$version"
@@ -85,21 +85,21 @@ object Room {
 
 object Paging {
     @JvmStatic
-    var version = "2.1.0"
+    var version = "2.1.2"
     @JvmStatic
     val common: String
-        get() = "androidx.paging:paging-common:$version"
+        get() = "androidx.paging:paging-common-ktx:$version"
     @JvmStatic
     val runtime: String
-        get() = "androidx.paging:paging-runtime:$version"
+        get() = "androidx.paging:paging-runtime-ktx:$version"
     @JvmStatic
     val rxjava2: String
-        get() = "androidx.paging:paging-rxjava2:$version"
+        get() = "androidx.paging:paging-rxjava2-ktx:$version"
 }
 
 object Lifecycle {
     @JvmStatic
-    var version = "2.1.0"
+    var version = "2.2.0"
     @JvmStatic
     val common: String
         get() = "androidx.lifecycle:lifecycle-common:$version"
@@ -114,32 +114,32 @@ object Lifecycle {
         get() = "androidx.lifecycle:lifecycle-extensions:$version"
     @JvmStatic
     val livedata: String
-        get() = "androidx.lifecycle:lifecycle-livedata:$version"
+        get() = "androidx.lifecycle:lifecycle-livedata-ktx:$version"
     @JvmStatic
     val livedataCore: String
-        get() = "androidx.lifecycle:lifecycle-livedata-core:$version"
+        get() = "androidx.lifecycle:lifecycle-livedata-core-ktx:$version"
     @JvmStatic
     val reactiveStreams: String
-        get() = "androidx.lifecycle:lifecycle-reactivestreams:$version"
+        get() = "androidx.lifecycle:lifecycle-reactivestreams-ktx:$version"
     @JvmStatic
     val runtime: String
-        get() = "androidx.lifecycle:lifecycle-runtime:$version"
+        get() = "androidx.lifecycle:lifecycle-runtime-ktx:$version"
     @JvmStatic
     val viewmodel: String
-        get() = "androidx.lifecycle:lifecycle-viewmodel:$version"
+        get() = "androidx.lifecycle:lifecycle-viewmodel-ktx:$version"
 }
 
 object KTX {
-    const val core = "androidx.core:core-ktx:1.0.1"
-    const val palette = "androidx.palette:palette-ktx:1.0.0"
+    const val core = "androidx.core:core-ktx:1.3.2"
+    const val palette = "androidx.palette:palette-ktx:2.1.0"
     const val collection = "androidx.collection:collection-ktx:1.1.0"
     const val sqlite = "androidx.sqlite:sqlite-ktx:2.0.1"
-    const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.1.0"
-    const val reactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.1.0"
-    const val workManager = "androidx.work:work-runtime-ktx:2.2.0"
+    const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0"
+    const val reactiveStreams = "androidx.lifecycle:lifecycle-reactivestreams-ktx:2.2.0"
+    const val workManager = "androidx.work:work-runtime-ktx:2.4.0"
 
     object Navigation {
-        var version = "2.1.0"
+        var version = "2.3.1"
         @JvmStatic
         val runtime: String
             get() = "androidx.navigation:navigation-runtime-ktx:$version"
@@ -153,8 +153,8 @@ object KTX {
 }
 
 object AndroidTest {
-    const val runner = "androidx.test:runner:1.2.0"
-    const val rule = "androidx.test:rules:1.2.0"
+    const val runner = "androidx.test:runner:1.3.0"
+    const val rule = "androidx.test:rules:1.3.0"
     const val room = "androidx.room:room-testing:1.0.0"
 }
 
